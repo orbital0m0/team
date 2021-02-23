@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	뭐라고 하지ㅣㅣ
+	브랜치로 같은 파일을 만들면 충돌이 날까요???
 </body>
 </html>
