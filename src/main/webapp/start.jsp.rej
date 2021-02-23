@@ -1,9 +1,0 @@
-diff a/src/main/webapp/start.jsp b/src/main/webapp/start.jsp	(rejected hunks)
-@@ -8,5 +8,6 @@
- </head>
- <body>
- 시작해봅시다!
-+과연....
- </body>
- </html>
-\ No newline at end of file
