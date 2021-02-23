@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	뭐라고 하지ㅣㅣ
+	branch 병합 테스트중~~~ 
+	각각 쓰고 메인에 병합 해ㅐ보기!
 </body>
 </html>
