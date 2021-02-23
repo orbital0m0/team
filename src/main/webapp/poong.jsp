@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	시러
+	어쩌라고 왜 안돼?
 </body>
 </html>
