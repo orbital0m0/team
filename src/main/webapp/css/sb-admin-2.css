@@ -10423,7 +10423,9 @@ a:focus {
   z-index: 1;
 }
 
-.sidebar .sidebar-brand .sidebar-brand-icon i {
+.sidebar .sidebar-brand .sidebar-brand-icon img {
+	height: 32px;
+	width: 32px;
   font-size: 2rem;
 }
 
