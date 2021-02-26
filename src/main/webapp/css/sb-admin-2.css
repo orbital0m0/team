@@ -9875,8 +9875,8 @@ a:focus {
 }
 
 .bg-gradient-success {
-  background-color: #038d42;
-  background-image: linear-gradient(180deg, #009223 10%, #038d42 100%);
+  background-color: #025e2c;
+  background-image: linear-gradient(180deg, #025e2c 10%, #025e2c 100%);
   background-size: cover;
 }
 
