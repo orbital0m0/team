@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* 초기화 */
+* {
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: black;
+	list-style: none;
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+/******************************** 헤더 영역 *********************************/
+/* 로고 위치 */
+.logo {
+	padding-top: 40px;
+	text-align: center;
+}
+
+/* 로그인 / 회원가입 */
+.login {
+	display: flex;
+	justify-content: flex-end;
+	float: right;
+	margin: -40px 250px 0 0;
+}
+
+.before_sign {
+	margin-right: 20px;
+	margin-top: 6px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #666;
+}
+
+/* 메인 메뉴 */
+nav#gnb {
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90px;
+	display: flex;
+}
+
+#gnb ul li {
+	float: left;
+}
+
+.dp1 {
+	flex: 1;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.dp1:hover {
+	color: #009223;
+}
+
+nav#gnb ul li {
+	margin: 0 50px;
+}
+
+.dp2 {
+	position: absolute;
+	background: #182952;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.15s ease-in;
+}
+
+#gnb>ul>li:hover .dp2 {
+	opacity: 1;
+	visibility: visible;
+}
