@@ -89,6 +89,16 @@
 	background-color: #3b3b3b
 }
 
+#footer .content {
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footer .content span {
+    color: #666666;
+}
+
 #footer .content .util_menu {
 	margin-bottom: 25px;
 }
@@ -139,7 +149,8 @@
 
 #footer .content span.addr {
 	padding-left: 0;
-	margin-left: 0
+	margin-left: 0;
+	color: #666666;
 }
 
 #footer .content span.addr:after {
@@ -151,7 +162,8 @@
 	font-size: 13px;
 	line-height: 25px;
 	padding-top: 2px;
-	letter-spacing: 0.005em
+	letter-spacing: 0.005em;
+	color: #666666;
 }
 
 #footer .content .sns_area {
@@ -180,11 +192,11 @@
 }
 
 #footer .content .sns_area.fackbook {
-	background: url(../images/common/icon_sns_facebook.png) 0 0 no-repeat;
+	background: url("../images/common/icon_sns_facebook.png") 0 0 no-repeat;
 }
 
 #footer .content .sns_area.fackbook:after {
-	background: url(../images/common/icon_sns_facebook.png) 100% 0 no-repeat;
+	background: url("../images/common/icon_sns_facebook.png") 100% 0 no-repeat;
 }
 
 #footer .content .sns_area.fackbook:hover:after {
@@ -193,9 +205,9 @@
 
 #footer .content .sns_area.instagram {
 	right: 105px;
-	background: url(../images/common/icon_sns_instar.png) 0 0 no-repeat;
+	background: url("../images/common/icon_sns_instar.png") 0 0 no-repeat;
 }
 
 #footer .content .sns_area.instagram:after {
-	background: url(../images/common/icon_sns_instar.png) 100% 0 no-repeat;
+	background: url("../images/common/icon_sns_instar.png") 100% 0 no-repeat;
 }

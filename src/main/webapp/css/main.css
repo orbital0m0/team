@@ -53,8 +53,18 @@
 
 /* 서브웨이 메뉴 슬라이더 */
 .subway_slider_menu_wrap {
-	height: 560px;
+	height: 450px;
 	background-color: white;
+}
+
+.subway_slider_menu_wrap h2 {
+    font-size: 40px;
+    font-weight: bold;
+    background: url(../images/main/bul_tit.png) 0 12px no-repeat;
+    min-height: 60px;
+    padding: 17px 0 0 25px;
+    width: 1230px;
+    margin: 0 auto;
 }
 
 input[type="radio"] {
@@ -64,7 +74,7 @@ input[type="radio"] {
 .subway_slider_menu {
 	width: 1230px;
 	text-align: right;
-	margin: 40px auto;
+	margin: -40px auto 40px auto;
 }
 
 .subway_slider_content {
@@ -172,7 +182,7 @@ div .wrap>.best_menu>a>p {
 .section_subway {
 	width: 1280px;
 	margin: 0 auto;
-	padding: 80px 0;
+	padding: 80px 0 20px 0;
 }
 
 .section_subway .content_top {
@@ -214,7 +224,8 @@ div .wrap>.best_menu>a>p {
 	line-height: 36px;
 	color: #fff;
 	font-size: 16px;
-	font-weight: 300
+	font-weight: 400;
+	text-align: center;
 }
 
 .section_subway .content_top .history {
@@ -249,7 +260,8 @@ div .wrap>.best_menu>a>p {
 	line-height: 36px;
 	color: #fff;
 	font-size: 16px;
-	font-weight: 300
+	font-weight: 400;
+	text-align: center;
 }
 
 .section_subway .content_bottom {
@@ -347,6 +359,15 @@ div .wrap>.best_menu>a>p {
 	position: relative;
 	overflow: hidden;;
 	border-radius: 0 30px 0 30px;
+	background-color: #F6F6F6;
+}
+
+.section_subway .content_bottom .banner_sponsor .mini_banner {
+	float: left;
+	width: 270px;
+	height: 300px;
+	border-radius: 0 30px 0 30px;
+	background-color: #F6F6F6;
 }
 
 .section_subway .content_bottom .banner_sponsor .bx-wrapper .bx-pager {
@@ -380,4 +401,3 @@ div .wrap>.best_menu>a>p {
 	background-color: #ffc300;
 	width: 30px;
 }
-
