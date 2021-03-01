@@ -17,9 +17,9 @@
 	text-align: center;
 }
 
-.logo > a > img{
+.logo>a>img {
 	width: 202px;
-    height: 40px;
+	height: 40px;
 }
 
 /* 로그인 / 회원가입 */
@@ -39,42 +39,109 @@
 }
 
 /* 메인 메뉴 */
-nav#gnb {
+nav #gnb {
 	margin-top: 15px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	height: 70px;
+	position: relative;
+	z-index: 30;
 }
 
-#gnb ul li {
-	float: left;
+#gnb>ul {
+	display: inline-block;
+	overflow: hidden;
+	height: 70px;
+	transition: all 0.5s;
+}
+
+#gnb>ul:hover {
+	overflow: visible;
+}
+
+#gnb:hover {
+	height: 350px;
+	opacity: 1;
+}
+
+#gnb>ul>li {
+	display: inline-block;
+	position: relative;
 }
 
 .dp1 {
 	flex: 1;
 	font-size: 18px;
 	font-weight: 700;
+	display: block;
+	position: relative;
+	width: 160px;
+	height: 70px;
+	line-height: 70px;
 }
 
 .dp1:hover {
 	color: #009223;
 }
 
-nav#gnb ul li {
-	margin: 0 50px;
-}
-
-.dp2 {
+.dp1:after {
+	content: "";
 	position: absolute;
-	background: #182952;
-	opacity: 0;
-	visibility: hidden;
-	transition: all 0.15s ease-in;
+	left: 50%;
+	bottom: -1px;
+	width: 0;
+	height: 2px;
+	background: #fff;
+	transition: all 0.5s;
 }
 
-#gnb>ul>li:hover .dp2 {
+#gnb>ul>li:hover>a:after {
+	left: 0;
+	width: 100%;
+}
+
+#gnb>ul ul {
+	position: absolute;
+	width: 100%;
+	height: 230px;
+	padding: 22px 0 0;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+#gnb>ul:hover ul {
 	opacity: 1;
-	visibility: visible;
+}
+
+#gnb>ul ul li {
+	line-height: 39px;
+}
+
+#gnb>ul ul a {
+	position: relative;
+	font-size: 14px;
+	transition: all 0.5s;
+}
+
+#gnb>ul ul a:hover {
+	color: #009223;
+}
+
+#gnb>ul ul a:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: -7px;
+	width: 0;
+	height: 2px;
+	background: #2acef1;
+	transition: all 0.5s;
+}
+
+#gnb>ul ul a:hover:after {
+	left: 0;
+	width: 100%;
 }
