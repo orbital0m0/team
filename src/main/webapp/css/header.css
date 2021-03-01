@@ -17,6 +17,11 @@
 	text-align: center;
 }
 
+.logo > a > img{
+	width: 202px;
+    height: 40px;
+}
+
 /* 로그인 / 회원가입 */
 .login {
 	display: flex;
