@@ -142,27 +142,12 @@
 	letter-spacing: -0.05em;
 }
 
-.btn.bgc_point {
-	font-size: 18px;
-	font-weight: bold;
-	text-align: center;
-	display: inline-block;
-	vertical-align: middle;
-	border-radius: 30px;
-	transition-duration: 0.2s;
-	background-color: #009223;
-}
-
 .input_set dl {
 	margin: 0;
 	background-color: #fff;
 	overflow: hidden;
 	border: 1px solid #e5e5e5;
 	padding: 22px 30px;
-}
-
-.input_set dl:focusin {
-	border: 1px solid #009223;
 }
 
 .input_set dt ~ dt, .write_info_wrap .input_set dd ~ dd {
@@ -229,6 +214,17 @@
 	height: 1px;
 	background-color: #e5e5e5;
 	padding-right: 30px;
+}
+
+.btn.bgc_point {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 30px;
+	transition-duration: 0.2s;
+	background-color: #009223;
 }
 
 #loginBtn>span {
