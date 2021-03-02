@@ -55,6 +55,7 @@ nav #gnb {
 	overflow: hidden;
 	height: 70px;
 	transition: all 0.5s;
+	text-align: center;
 }
 
 #gnb>ul:hover {
@@ -137,7 +138,7 @@ nav #gnb {
 	bottom: -7px;
 	width: 0;
 	height: 2px;
-	background: #2acef1;
+	background: #009223;
 	transition: all 0.5s;
 }
 
